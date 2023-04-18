@@ -2,10 +2,10 @@ name: Repository Dispatch
 on:
   repository_dispatch:
     types: [update]
-permissions:
-  contents: write
-  pull-requests: write
-  repository-projects: write
+# permissions:
+#   contents: write
+#   pull-requests: write
+#   repository-projects: write
 jobs:
   myEvent:
     runs-on: ubuntu-latest
